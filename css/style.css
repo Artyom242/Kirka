@@ -291,6 +291,7 @@ box-shadow: 0 0 10px #000;
     padding: 30px;
     
 }
+
 @media (max-width: 470.98px) {
     .block_3__text{
         word-wrap: break-word;
@@ -300,7 +301,7 @@ box-shadow: 0 0 10px #000;
         padding: 30px;
     }
 }
-h3{
+.h3{
     color: #fff;
     font-size: 3em;
     line-height: 1.25em;
@@ -311,17 +312,17 @@ h3{
     white-space: normal;
 }
 @media (max-width: 800.98px) {
-    h3 {
+    .h3 {
         font-size: 35px;
     }
 }
 @media (max-width: 470.98px) {
-    h3 {
+    .h3 {
         font-size: 25px;
     }
 }
 @media (max-width: 376.98px) {
-    h3 {
+    .h3 {
         font-size: 18px;
     }
 }
@@ -446,7 +447,7 @@ position: relative;
 }
 
 
-/*span {
+span {
     display: inline-block;
     text-shadow: 0 0 0 whitesmoke;
     animation: smoky 5s 3s both;
